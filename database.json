@@ -1,0 +1,95 @@
+{
+"users": [
+  {
+    "id": 1,
+    "name": "John Doe",
+    "email": "john@example.com"
+  },
+  {
+    "id": 2,
+    "name": "Jane Smith",
+    "email": "jane@example.com"
+  }
+],
+"customers": [
+  {
+    "id": 1,
+    "loyaltyNumber": "12345",
+    "userId": 1
+  },
+  {
+    "id": 2,
+    "loyaltyNumber": "67890",
+    "userId": 2
+  }
+],
+"employees": [
+  {
+    "id": 1,
+    "startDate": "2022-01-01",
+    "payRate": 15.5,
+    "userId": 1,
+    "locationId": 1
+  },
+  {
+    "id": 2,
+    "startDate": "2023-03-01",
+    "payRate": 18.0,
+    "userId": 2,
+    "locationId": 2
+  }
+],
+"locations":
+[
+  {
+    "id": 1,
+    "name": "Sweet Treats Emporium",
+    "address": "123 Main St",
+    "squareFootage": 2000
+  },
+  {
+    "id": 2,
+    "name": "Candyland Delights",
+    "address": "456 Elm St",
+    "squareFootage": 1500
+  }
+],
+"products": [
+  {
+    "id": 1,
+    "name": "Snickers",
+    "typeId": 1,
+    "price": 1.99
+  },
+  {
+    "id": 2,
+    "name": "M&M's",
+    "typeId": 1,
+    "price": 1.49
+  }
+],
+"productTypes": [
+  {
+    "id": 1,
+    "name": "Chocolate"
+  },
+  {
+    "id": 2,
+    "name": "Hard Candy"
+  }
+],
+"purchases": [
+  {
+    "id": 1,
+    "customerId": 1,
+    "productId": 1,
+    "quantity": 5
+  },
+  {
+    "id": 2,
+    "customerId": 2,
+    "productId": 2,
+    "quantity": 3
+  }
+]
+}
