@@ -23,6 +23,12 @@
       "fullName": "Something",
       "isStaff": false,
       "id": 4
+    },
+    {
+      "fullName": "Sarah Sunday",
+      "isStaff": true,
+      "email": "sarah@email.com",
+      "id": 5
     }
   ],
   "customers": [
@@ -51,6 +57,13 @@
       "payRate": 18,
       "userId": 2,
       "locationId": 2
+    },
+    {
+      "userId": 5,
+      "locationId": 2,
+      "payRate": 222,
+      "startDate": "2023-08-13",
+      "id": 3
     }
   ],
   "locations": [
@@ -121,18 +134,6 @@
       "typeId": 2,
       "price": 1.49,
       "id": 9
-    },
-    {
-      "name": "York Peppermint Patties",
-      "typeId": 1,
-      "price": 0.99,
-      "id": 10
-    },
-    {
-      "name": "Twinkies",
-      "typeId": 1,
-      "price": 1.99,
-      "id": 11
     }
   ],
   "productTypes": [
